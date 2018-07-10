@@ -75,7 +75,7 @@ The training set for both cities is split into a training set and a validation s
  * Matplotlib
  * Seaborn
  * Statsmodels
- * Sciki-learn
+ * Scikit-learn
  
  <h5>To run the model: python model.py</h5>
  
