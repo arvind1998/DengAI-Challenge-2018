@@ -81,5 +81,6 @@ The training set for both cities is split into a training set and a validation s
  
 
 <h3>Results</h3>
+
 1. The meanabs() error for SJ: 20.58
 1. The meanabs() error for IQ: 10.26
