@@ -119,11 +119,8 @@ def find_model(training_set, validation_set, city):
                 "reanalysis_specific_humidity_g_per_kg + " \
                 "reanalysis_dew_point_temp_k + " \
                 "reanalysis_min_air_temp_k + " \
-                "station_min_temp_c + " \
-                "year + " \
-                "reanalysis_relative_humidity_percent + " \
-                "station_avg_temp_c + " \
-                "reanalysis_precip_amt_kg_per_m2"
+                "station_min_temp_c " 
+              
         
     
     grid_search=10**np.arange(-10, -2, dtype=np.float64)              
