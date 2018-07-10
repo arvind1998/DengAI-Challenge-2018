@@ -36,7 +36,7 @@ train_features_iq.total_cases.mean()
 train_features_iq.total_cases.var()
 > 115.89
 ```
-As mean and variance of total_cases is absolutely different for both the cities, we will use the Negative Binomial Regression.
+As mean and variance of total_cases is absolutely different for both the cities, we will use the **Negative Binomial Regression**.
 
 
 On plotting the correlations of the features with the target variable we get the following result: 
