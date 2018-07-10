@@ -55,6 +55,7 @@ The training set for both cities is split into a training set and a validation s
  ![](/images/actual_vs_prediction.png)
  
  <h3>Requirements</h3>
+ 
  * Numpy
  * Pandas
  * Matplotlib
