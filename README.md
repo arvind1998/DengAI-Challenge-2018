@@ -25,6 +25,19 @@ Poisson is used when the mean and variance of data are equal or close to equal. 
 
 <h3>Correlations</h3>
 As this dataset is big, some features might be strongly correlated to the target variable .i.e. total_cases and some might be weakly correlated. So our job is to drop the features which have a less correlation factor. As this dataset consists data of two different cities, we might need to separate them and treat them as two different datasets. 
+```
+train_features_sj.total_cases.mean()
+> 34.18
+train_features_sj.total_cases.var()
+> 2640.04
+train_features_iq.total_cases.mean()
+> 7.56
+train_features_iq.total_cases.var()
+> 115.89
+```
+As mean and variance of total_cases is absolutely different for both the cities, we will use the Negative Binomial Regression.
+
+
 On plotting the correlations of the features with the target variable we get the following result: 
 
 ![](/images/corr_sj_heatmap.png)
@@ -64,3 +77,8 @@ The training set for both cities is split into a training set and a validation s
  * Sciki-learn
  
  <h5>To run the model: python model.py</h5>
+ 
+
+<h3>Results</h3>
+1. The meanabs() error for SJ: 20.58
+1. The meanabs() error for IQ: 10.26
