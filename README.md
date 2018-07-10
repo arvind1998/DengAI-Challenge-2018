@@ -25,6 +25,7 @@ Poisson is used when the mean and variance of data are equal or close to equal. 
 
 <h3>Correlations</h3>
 As this dataset is big, some features might be strongly correlated to the target variable .i.e. total_cases and some might be weakly correlated. So our job is to drop the features which have a less correlation factor. As this dataset consists data of two different cities, we might need to separate them and treat them as two different datasets. 
+
 ```
 train_features_sj.total_cases.mean()
 > 34.18
